@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+
 '''Module for Rectangle class.'''
+
 from models.base import Base
 
 
