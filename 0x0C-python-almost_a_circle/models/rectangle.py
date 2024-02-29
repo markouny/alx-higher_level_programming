@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-
 '''Module for Rectangle class.'''
-
 from models.base import Base
 
 
@@ -106,3 +104,4 @@ class Rectangle(Base):
         '''Returns dictionary representation of this class.'''
         return {"id": self.id, "width": self.__width, "height": self.__height,
                 "x": self.__x, "y": self.__y}
+
